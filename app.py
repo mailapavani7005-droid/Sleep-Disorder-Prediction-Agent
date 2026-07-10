@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import pickle
 import pandas as pd
@@ -132,4 +131,3 @@ if st.button("Predict"):
     st.success(
         f"Predicted Sleep Disorder: {result_map.get(prediction, prediction)}"
     )
-```
